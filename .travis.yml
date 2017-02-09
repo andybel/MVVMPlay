@@ -1,7 +1,7 @@
 language: objective-c
-osx_image: xcode8.2
-xcode_project: MVVM_Protocols_Play.xcodeproj
-xcode_scheme: MVVM_Protocols_Play
-xcode_sdk: iphonesimulator9.3
+# osx_image: xcode8.2
+# xcode_project: MVVM_Protocols_Play.xcodeproj
+# xcode_scheme: MVVM_Protocols_Play
+# xcode_sdk: iphonesimulator9.3
 
 script: - xcodebuild -project MVVM_Protocols_Play.xcodeproj -scheme MVVM_Protocols_Play -sdk iphonesimulator9.3 build test
