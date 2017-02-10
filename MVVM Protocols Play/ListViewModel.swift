@@ -36,7 +36,7 @@ protocol ListViewModelDelegate {
 class ListViewModel: ListViewModelDelegate {
     
     internal var title: String {
-        return "Countries"
+        return "Europe"
     }
     
     weak var viewDelegate: ListViewModelViewDelegate?
