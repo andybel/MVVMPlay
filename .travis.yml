@@ -4,4 +4,4 @@ osx_image: xcode8.2
 # xcode_scheme: "MVVM Protocols Play"
 # xcode_sdk: iphonesimulator9.3
 
-script: "xcodebuild -project 'MVVM Protocols Play.xcodeproj' -scheme 'MVVM Protocols Play' build test"
+script: "xcodebuild -project 'MVVM Protocols Play.xcodeproj' -scheme 'MVVM Protocols Play' -sdk iphonesimulator"
